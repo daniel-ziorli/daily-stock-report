@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Alert</title>
+    <style type="text/css">
+        {{ style }}
+    </style>
+</head>
+<body>
+  
+    {% for graph in graphs %}
+    <hr>
+    <div>
+        <img src="cid:{{ graph.src }}"/>
+        <table>
+            {{ graph.data }}
+        </table>
+    </div>
+    {% endfor %}
+
+</body>
+</html>

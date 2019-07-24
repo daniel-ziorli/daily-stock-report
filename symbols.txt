@@ -1,0 +1,8 @@
+SPY
+AMD
+VMW
+STX
+IBM
+AAPL
+GOOG
+
